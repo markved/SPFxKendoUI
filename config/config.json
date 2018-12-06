@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "kendo-ui-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/kendoUi/KendoUiWebPart.js",
+          "manifest": "./src/webparts/kendoUi/KendoUiWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "KendoUiWebPartStrings": "lib/webparts/kendoUi/loc/{locale}.js"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "isCreatingSolution": true,
+    "environment": "spo",
+    "version": "1.6.0",
+    "libraryName": "kendo-ui",
+    "libraryId": "ee3d0146-97a9-4406-9d11-b9d665db35f7",
+    "packageManager": "npm",
+    "componentType": "webpart"
+  }
+}
